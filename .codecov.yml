@@ -1,0 +1,12 @@
+coverage:
+  status:
+    project:
+      default: off
+        flags:
+          - linux
+          - windows_nt
+      unit:
+        target: 80%
+        flags:
+          - linux
+          - windows_nt

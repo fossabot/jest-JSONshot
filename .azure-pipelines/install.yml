@@ -1,0 +1,13 @@
+steps:
+  - checkout: self
+  # Ensure Node.js 10 is active
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x'
+    displayName: 'Use Node.js 10'
+
+  - script: 'yarn install --frozen-lockfile'
+    displayName: 'yarn install'
+
+  - script: 'yarn build'
+    displayName: 'build'

@@ -1,0 +1,8 @@
+version: 2
+plugins:
+
+  markdownlint:
+    enabled: true
+
+exclude_patterns:
+  - "**/__tests__/**"

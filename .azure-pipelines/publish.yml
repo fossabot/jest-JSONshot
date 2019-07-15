@@ -1,0 +1,12 @@
+steps:
+  - template: install.yml
+  - ${{if eq(variables['Build.SourceBranch'], 'refs/heads/master')}}:
+
+      - powershell: |
+          npx -p semantic-release@16.0.0-beta.22 semantic-release --branch master
+
+        displayName: 'Release'
+        workingDirectory: 'build'
+        env:
+          NPM_TOKEN: $(NPM_TOKEN)
+          GITHUB_TOKEN: $(GITHUB_TOKEN)

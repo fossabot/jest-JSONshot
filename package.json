@@ -1,0 +1,35 @@
+{
+  "name": "@nikkij/jest-JSONshot",
+  "description": "Snapshot serializer that will serialize objects into JSON strings.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikkiJ19/@nikkij/jest-JSONshot"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest -c .config/jest.ci.js --ci",
+    "codecov": "codecov",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-babel": "^6.1.29",
+    "@types/fs-extra": "^7.0.0",
+    "@types/gulp-sourcemaps": "^0.0.32",
+    "@types/jest": "^24.0.15",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-babel": "^8.0.0",
+    "gulp-typescript": "^5.0.1",
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "typescript": "^3.4.5",
+    "jest": "^24.8.0",
+    "fs-extra": "^8.0.1",
+    "jest-junit": "^6.4.0"
+  }
+}
