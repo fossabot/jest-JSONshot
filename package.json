@@ -18,7 +18,7 @@
   "devDependencies": {
     "@types/gulp": "^4.0.6",
     "@types/gulp-babel": "^6.1.29",
-    "@types/fs-extra": "^7.0.0",
+    "@types/fs-extra": "^8.0.0",
     "@types/gulp-sourcemaps": "^0.0.32",
     "@types/jest": "^24.0.15",
     "gulp-sourcemaps": "^2.6.5",
