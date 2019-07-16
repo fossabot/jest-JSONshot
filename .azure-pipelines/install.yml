@@ -6,7 +6,7 @@ steps:
       versionSpec: '10.x'
     displayName: 'Use Node.js 10'
 
-  - script: 'yarn install --frozen-lockfile'
+  - script: 'yarn install'
     displayName: 'yarn install'
 
   - script: 'yarn build'
