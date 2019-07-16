@@ -13,7 +13,7 @@
     "build": "gulp build"
   },
   "peerDependencies": {
-    "jest-snapshot": "^24"
+    "jest-snapshot": "^24.8.0"
   },
   "devDependencies": {
     "@types/gulp": "^4.0.6",
