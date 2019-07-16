@@ -1,5 +1,5 @@
 {
-  "name": "@nikkij/jest-JSONshot",
+  "name": "@nikkij/jest-jsonshot",
   "description": "Snapshot serializer that will serialize objects into JSON strings.",
   "license": "MIT",
   "repository": {
