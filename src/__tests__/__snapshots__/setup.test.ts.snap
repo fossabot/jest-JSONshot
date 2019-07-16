@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`serializer JSONshot number 1`] = `1`;
+
+exports[`serializer JSONshot object 1`] = `
+{
+  "key1": "val1"
+}
+`;
+
+exports[`serializer JSONshot string 1`] = `"str1"`;
+
+exports[`serializer function 1`] = `null`;
+
+exports[`serializer regular snapshot still works 1`] = `
+Object {
+  "key1": "val1",
+}
+`;
