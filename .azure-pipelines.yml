@@ -30,7 +30,7 @@ stages:
           vmImage: ubuntu-16.04
         steps:
           - template: .azure-pipelines/test.yml
-          - template: .azure-pipelines/smoke.yml
+          - template: .azure-pipelines/beta.yml
 
 
   # Short circuit release on master as all contributions should be merged through a hardened beta or urgent hotfix.
